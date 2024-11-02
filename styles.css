@@ -1,0 +1,40 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color: #124559;
+    text-align: center;
+}
+.nav{
+    background-color: #124559;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.nav .photo-button{
+    background: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.photo-button:hover{
+    background: rgb(255, 0, 132);
+}
+.gallery{
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img{
+    height: 300px;
+    width: calc(100% / 3);
+    margin: 10px;
+}

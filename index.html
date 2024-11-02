@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAB 9</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Photo gallery</h1>
+    <div>
+      <ul class="nav">
+        <button class="photo-button" data-filter="all">ALL</button>
+        <button class="photo-button" data-filter="cars">CARS</button>
+        <button class="photo-button" data-filter="games">GAMES</button>
+        <button class="photo-button" data-filter="sports">SPORTS</button>
+      </ul>
+    </div>
+    <div>
+      <section class="gallery">
+        <img src="audi.jpg" class="image-filter cars" />
+        <img src="benz.jpg" class="image-filter cars" />
+        <img src="bmw.jpg" class="image-filter cars" />
+        <img src="controller.jpg" class="image-filter games" />
+        <img src="PC.jpg" class="image-filter games" />
+        <img src="Esports.jpg" class="image-filter games" />
+        <img src="soccer.jpg" class="image-filter sports" />
+        <img src="football.jpg" class="image-filter sports" />
+        <img src="basketball.jpg" class="image-filter sports" />
+      </section>
+    </div>
+  </body>
+</html>
